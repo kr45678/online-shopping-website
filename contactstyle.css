@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-form, .contact-info {
+    width: 45%;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-form h3, .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #fff;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #f39c12;
+}
+
+.submit-btn {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #e67e22;
+}
+
+.contact-info p, .contact-info ul {
+    line-height: 1.6;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li strong {
+    color: #f39c12;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #252525;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+footer p {
+    margin-top: 20px;
+    color: #bbb;
+}

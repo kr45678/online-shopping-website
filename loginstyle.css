@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Login Section */
+.login-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.login-box h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #f39c12;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #fff;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #f39c12;
+}
+
+.login-btn {
+    background-color: #f39c12;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e67e22;
+}
+
+.forgot-password {
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #f39c12;
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    color: #e67e22;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #252525;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+}
+
+footer p {
+    margin-top: 20px;
+    color: #bbb;
+}
